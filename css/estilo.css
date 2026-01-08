@@ -56,7 +56,7 @@ body {
   text-align: center;
   align-items: center;
   gap: 2em;
-  margin: 0em 0em 3em 0em;
+  margin: 0em 0em 1em 0em;
 }
 
 .apresentacao__about{
@@ -105,6 +105,26 @@ body {
   text-align: justify;
   font-weight: 400;
   font-size: 1.5rem;
+}
+
+/* LISTA DE TECNOLOGIAS */
+.tech-stack{
+  list-style-position: inside;
+  margin: 0em 0em 1.5em 0em;
+  font-family: var(--fonte-secundaria);
+  text-align: left;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.2em;
+}
+
+.tech-stack li{
+  margin-bottom: 0.8em;
+}
+
+.tech-stack strong{
+  color: var(--cor-terciaria);
+  font-weight: 600;
 }
 
 /* DIV PAI DOS BOTOES */
@@ -177,10 +197,7 @@ body {
 }
 
 .rodape{
-  padding: 50px;
-  background-color: var(--cor-terciaria);
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 
 .rodape__paragrafo{

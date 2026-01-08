@@ -7,13 +7,22 @@
      gap: 1em;
 }
 
+.conteiner__card__computador{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     gap: 1em;
+}
+
 .certificado__link{
      margin: 0em 0em .5em 0em;
 }
 
-@media screen and (min-width: 768px){
-          
-     .paragrafo__bubudede{
-          margin-bottom: 4em;
-     }
+.descricao__ajuste__javascript{
+     padding-top: 2em;
+}
+
+.descricao__ajuste__javascript__certificado{
+     padding-top: 1.4em;
 }
