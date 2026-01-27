@@ -146,13 +146,14 @@ body {
 }
 
 .rodape{
+  padding: 2em 0em;
   text-align: center;
 }
 
 .rodape__paragrafo{
   font-family: var(--fonte-secundaria);
   font-weight: 500;
-  font-size: 1.75rem;
+  font-size: 1.0rem;
   color: var(--cor-secundaria);
 }
 
@@ -163,6 +164,10 @@ body {
     text-align: center;
     align-items: center;
     gap: 3em;
+  }
+
+  .apresentacao__links {
+    flex-direction: row;
   }
   
   .apresentacao__conteudo__titulo__sobremim__computador{
