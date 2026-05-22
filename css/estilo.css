@@ -79,6 +79,34 @@ body {
   font-weight: 600;
 }
 
+/* HERO: FOTO + TEXTO DO DESENVOLVEDOR */
+.apresentacao__hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.apresentacao__hero__texto {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+/* FOTO ARREDONDADA */
+.apresentacao__foto {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid var(--cor-secundaria);
+  flex-shrink: 0;
+  order: -1;
+}
+
 /* DIV PAI DOS BOTOES */
 .apresentacao__links{
   display: flex;
@@ -112,5 +140,16 @@ body {
 @media screen and (min-width: 1000px) {
   .apresentacao__links{
     flex-direction: row;
+  }
+
+  .apresentacao__hero {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .apresentacao__foto {
+    width: 220px;
+    height: 220px;
+    order: 0;
   }
 }
